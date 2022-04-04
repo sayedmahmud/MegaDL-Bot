@@ -11,8 +11,8 @@ class Config:
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     TG_MAX_SIZE = 2040108421
     OWNER_ID = int(os.environ.get("OWNER_ID", 568235637))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "https://t.me/virusmegabotlog"))
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/virusmegabotlog")
 
 
 class TEXT:
